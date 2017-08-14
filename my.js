@@ -12,7 +12,7 @@ function openURL(url){
   window.open(url, 'Share', 'width=550, height=400, toolbar=0, scrollbars=1 ,location=0 ,statusbar=0,menubar=0, resizable=0');
 }
 
-function getQuote() {
+function getQuote() {       //Ajax Api's
   $.ajax({
     headers: {
       "X-Mashape-Key": "OivH71yd3tmshl9YKzFH7BTzBVRQp1RaKLajsnafgL2aPsfP9V",
