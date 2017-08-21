@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
 .container-fluid{
-overflow: hidden;}
+overflow: visible;}
 
 * {
   margin: 0;
